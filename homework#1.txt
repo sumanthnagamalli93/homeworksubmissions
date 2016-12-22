@@ -1,0 +1,26 @@
+1)	What is version control protocol?
+Version control protocol is a system that records changes to a file or set of files over time so that you can recall specific versions later. For the examples in this book you will use software source code as the files being version controlled, though in reality you can do this with nearly any type of file on a computer.
+
+2)	What is repository?
+A repository is a central place in which an aggregation of data is kept and maintained in a organized way usually in computer storage. A repository may be directly accessible to users or may be a place from which specific databases, files, or documents are obtained for further relocation or distribution in a network.
+
+3)	 Software repository?
+Generally while developing softwares there are many parts which needed to be taken care of and have lots of teams to be taken care of so there will be a repository which maintains all the required tools softwares related to it. And the teams which handles the development can access that repository from any location.
+
+4)	What is GIT?
+GIT is a version control protocol for tracking changes in computer files and coordinating work on those files among multiple people. It is mainly used for software development. It can be used to keep track of changes in any files.
+
+5)	What is GITHUB?
+Github is a web based Git repository hosting device. It offers all of the distributed version control  and source code management functionality of Git as well as adding its own features.
+
+6)	Differences between git and github?
+Git is a distributed peer-peer version control system. "GitHub is a web-based Gitrepository hosting service, which offers all of the distributed revision control and source code management (SCM) functionality of Git as well as adding its own features.
+
+
+7)	What is pull, push and commit in git?
+Pull: suppose if there are any updates. If you want to download them again we use pull. Then we can make modifications to the existing code.
+Push: uploading changes from local repository to remote repository such as github.
+Commit: make the changes permanent on to the repository. Upload changes from file system to local repository local repository resides in our system.
+
+8)	What are merge conflicts?
+Suppose if two people modified same line of code, then some manual overwriting of code is needed to correct it. It needs to be manually resolved.

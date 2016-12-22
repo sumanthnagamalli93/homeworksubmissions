@@ -1,0 +1,36 @@
+how to clone a repository?
+open github and navigate to the mainpage of the repository 
+under the repository name to which yoi want to clone. there is a option clone or download
+copy that link and open git bash
+i tried to create my own directory using mkdir consultancy
+then change the directory to cd consultancy to enter into that directory
+then type git clone and the url which you have copied earlier and press enter
+then your clone will be created
+
+2)creating a new repository to submit homeworks?
+when you open github website in the upperright corner there is a click + and then click new repository
+then create a short, and memorable repository name for example i did uihomework submissions
+and then u can add short description if needed
+now choose between creating public or private repository.
+then initialise this repository with a readme. this option will let you immediately clone the repository to your computer
+and then click create repository then it is done
+
+
+3)init: This command creates an empty git repository basically .git directory with subdirectories for objects, heads, tag etc. an initial head file that references the head of master branch is also created
+add:adds file contents to the index. this commands updates the indx using the current content found in the working tree to prepare the content staged for the next commit.
+mv:this command is generally used to move or rename a file,directory 
+reset:reset current head to the specified state
+rm:this command will remove files from the index,or from the working tree and the index. git rm will not remove a file from just your working directory
+bisect:this command uses a binary search algorithm to find which commit in your projects history intrduced a bug
+grep:print lines matching a pattern
+log:shows the committed logs
+show:shows one or more objects. for commits it shows the log message and textual diff. for tags it shows the tag message and the referenced objects.
+status:changed files in your working directory
+branch:it is used to list all existing branches
+commit:upload changes from file system to local repository
+merge:it is used to combine two or more people  written code
+rebase:reapplying the commits on top of another base tip
+tag:it marks the current commit with a tag
+fetch: download objects and references from another repository
+pull:downloading partial updates from repo
+push: uploading changes to github. 
