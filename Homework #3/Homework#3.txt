@@ -1,0 +1,11 @@
+1) how to resolve merge conflicts
+a) pull the most recent file and open it in editor
+b)delete all the lines with > < = symbols
+remove HEADS
+now push the file back
+2) HTML is hyper text mark up language. type the html code ina text editor and save it as .html file
+3) DOC type: this is not a html tag.it is the instruction to the webbrowser about what version of html the page is written in.
+4)tag: these are the element names surrounded by angle brackets. these  normally come in pairs
+element: this usually consists a start tag and a end tag with the content inserted in between
+5) attribute: attributes provide additional information about html elements. 
+6)
