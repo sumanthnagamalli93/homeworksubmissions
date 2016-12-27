@@ -1,0 +1,52 @@
+ 1)how do u create a list in html? what is ordered list and unordered list?
+ unordered list: this type of list starts with the <ul> tag.each list item starts with the <li> tag. the list items will be marked with bullets by default
+ ordered list: this type of list starts with the <ol> tag.each list item starts with the <li> tag. the list items will be marked with numbers by default.
+
+ 2)how to include images in html?
+ Use the HTML <img> element to define an image
+Use the HTML src attribute to define the URL of the image
+Use the HTML alt attribute to define an alternate text for an image, if it cannot be displayed
+Use the HTML width and height attributes to define the size of the image
+
+3)how to take user input in html?
+this can be done using form tags 
+html <form> element defines a form that is used to collect user input it contains form elements.they are different types of input elements like the textfields,checkboxes,radiobuttons etc.
+the <input> element is the most important form element.it can be displayed in several ways,depending on the type attribute.
+<form action="action_page.php">
+  First name:<br>
+  <input type="text" name="firstname" value="Mickey">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Mouse">
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+4)how to have links to different webpages and link to different part of webpages?
+links are defined with the <a> tag
+<a href="url"> link text</a>
+here href attribute specifies the destination address. link text is the visible part and by clicking that link text will send you to specified address.
+and link to different part of webpages is defined by
+<a href="#id to the part of webpage to be referenced"
+
+
+5)what is head ,body, html element and why do we need them in the page. ?
+The <head> element contains meta information about the document
+The <body> element contains the visible page content
+element :this usually consists of start tag and a end tag with the content inserted in between them.
+
+6)what are semantic elements describe about each one of them?
+Tag	Description
+<article>	Defines an article
+<aside>	Defines content aside from the page content
+<details>	Defines additional details that the user can view or hide
+<figcaption>	Defines a caption for a <figure> element
+<figure>	Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+<footer>	Defines a footer for a document or section
+<header>	Specifies a header for a document or section
+<main>	Specifies the main content of a document
+<mark>	Defines marked/highlighted text
+<nav>	Defines navigation links
+<section>	Defines a section in a document
+<summary>	Defines a visible heading for a <details> element
+<time>	Defines a date/time
