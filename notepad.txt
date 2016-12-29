@@ -1,0 +1,78 @@
+1)explain all the input type with examples?
+input element is  used to create interactive controls for webforms to accept  data from users.
+button:a push button with no default behaviour
+<input type="button">
+checkbox:defines a checkbox,which the user can toggle on or off.it lets users to select 0 or more options.
+<input type="checkbox" name="terms and conditions">Do You wish To Agree The Terms And Conditions
+color:it allows the user to select a color and returns the hex value for that color.
+<input id="color" name="color" type="color">
+date:it is used for input fields that should contain a date
+<input type="date">
+date-time:We can combine the date and time by using type="datetime" for specifying a precise time on a given day.
+<input id="entry-day-time" name="entry-day-time" type="datetime">
+email:the email input type is no different than a standard text input type and allows for one or more e-mail addresses to be entered. 
+<input type="email" name="email">
+file:this control lets user to select a file
+<input type="file">
+image:this is a graphical submit button.one must use the src attribute to specify the source of the image and the alt attribute to define a  alternate text.we can use height an dwidth att to resize the image
+<img src="fashionn.jpg" alt="fashion" width="350" height="240">
+month: it is new to html5.control for entering a month and a year 
+<input type="month">
+number:allows user to enter floating point number
+<input type="number">
+password:text field in which the entered value is not visible.we can use a max length attribute to specify the max length of a value that is entered.
+<input type="password" name="psw">
+radio:defines radio button.this lets user select only  one of a limited number of choices
+<input type="radio" name="Gender" value="male" checked>
+range:It represents a numerical value within a given range.
+<input type= "range">
+
+3)what are semantic elements?
+A semantic element clearly describes its meaning to both the browser and the developer.refers to the correct interpretation of the meaning of a word or sentence. To use a word semantically is to use it in a way that is properly aligned with the meaning of the word. 
+Two Practices that Enable Semantic Markup
+There are two different practices that must be put into place if we are going to write semantic markup.
+Semantic markup requires that HTML elements be used according to their intended purpose.
+Semantic markup requires the separation of content and presentation.
+
+4)difference between article section and div?
+articles are part of semantic element where as div is not a part of semantic element
+The div element has no special meaning at all. It represents its children. It can be used with the class, lang, and title attributes to mark up semantics common to a group of consecutive elements.
+where as article element represents a complete, or self-contained, composition in a document, page, application, or site and that is, in principle, independently distributable or reusable, e.g. in syndication. This could be a forum post, a magazine or newspaper article, a blog entry, a user-submitted comment, an interactive widget or gadget, or any other independent item of content.
+
+5)explain with examples about semantic elements?
+Tag	Description
+<article>	Defines an article
+<aside>	Defines content aside from the page content
+<details>	Defines additional details that the user can view or hide
+<figcaption>	Defines a caption for a <figure> element
+<figure>	Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+<footer>	Defines a footer for a document or section
+<header>	Specifies a header for a document or section
+<main>	Specifies the main content of a document
+<mark>	Defines marked/highlighted text
+<nav>	Defines navigation links
+<section>	Defines a section in a document
+<summary>	Defines a visible heading for a <details> element
+<time>	Defines a date/time
+all the tags mentioned above are used in my sample code
+
+
+6)what are forms and what is form validation in html?
+HTML Forms are required when you want to collect some data from the site visitor. For example during user registration you would like to collect information such as name, email address
+form validation:while you should always validate data on your servers.additional validation of data on the web page itself has multiple benefits By validating form data while the user is filling it out, the user can know immediately if they've made any mistakes; this saves the time of waiting for an HTTP response and saves your server from dealing with bad form input. basically it takes care wheather all the fields are filled out and with correct information.which is called form validation.
+
+7)difference between html4 and html5.explain in more detail?
+general differences between html5 and html4 are:
+1)simplfied and clear syntax:
+the syntax in html5 is extremely clear and simple as compared to html4.one example of this is the doctype. in html4 it was too messy and lengthy where as in html5 it has been made extremely simple.
+multimedia elements:HTML5 contains built in support for integrated multimedia files into web page via video and audio tags. Previously, in HTML4, the multimedia content was integrated in web pages via third party plugins such as Silverlight and flash. 
+the header and footer:html5 has acknowledged the new web anatomy.with html5<header> and 
+<footer> are specifically makred for such.
+<section> and <article> elements:HTML5 has adopted the popular web standard. <section> and <article> allows you to mark specific areas of your layout as such, and should have a positive effect on on your SEO in the end.
+new <audio> and <video> elements:There are also some new multimedia elements and attributes, such as <track>, that provides text tracks for the video element. With these additions HTML5 is definitely getting more and more Web 2.0-friendly. The problem is that by the time HTML5 becomes widely accepted, Web 2.0 might be old news.
+
+
+
+
+
+
