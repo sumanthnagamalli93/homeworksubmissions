@@ -26,6 +26,15 @@ radio:defines radio button.this lets user select only  one of a limited number o
 <input type="radio" name="Gender" value="male" checked>
 range:It represents a numerical value within a given range.
 <input type= "range">
+reset: this is used to reset the data to before state.
+<input type= "reset">
+search:it is generally used to search particular data within the page or refering to other websites
+submit:a button on click submits the form
+tel:it is partof html5 which is used to provide provide telephone number
+text:basically a simple text field
+url:to refer to another website
+
+2)explain all input attributes?
 
 3)what are semantic elements?
 A semantic element clearly describes its meaning to both the browser and the developer.refers to the correct interpretation of the meaning of a word or sentence. To use a word semantically is to use it in a way that is properly aligned with the meaning of the word. 
