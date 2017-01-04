@@ -1,0 +1,32 @@
+1)what are pseudo classes?
+A pseudo-class is basically a specific characteristic of an element that can be targeted with css.they are used to add special effects to some selectors. few of the pseduo classes are 
+:link- use this class to add special style to an unvisited link.
+:visited-this is used to add special style to a visited link.
+ :hover-Use this class to add special style to an element when you mouse over it.
+ :active-Use this class to add special style to an active element.
+ :first-child- Use this class to add special style to an element that is the first child of some other element.
+  these pseudo elements are always preceded by a colon(:) and next comes the name of the pseudo-class.
+  syntax:selector:pseudo-class 
+  {
+  property: value
+  }
+
+  2)what are pseudo elements?
+ pseudo element is used to style specified parts of an element. they are just like pseudo-classes, pseudo elements are added to selectors but instead of describing a special state they allow you to style certain parts of element.
+ syntax- 
+ selector: :pseudo-element
+ {
+ property:value;
+ }
+ commonly used pseudo elements are :after, :before, :first-letter, :first-line
+
+ 3)difference between pseudo classes and pseudo elements?
+ basically a pseudo class is a selector that assists in the selection of something that cannot be expressed by a simpke selector, for egs :hover. a pseudo element however allows us to create items that do not normally exist in the document tree for egs ::after.
+ Pseudo classes are for selecting elements that exist but you can't select with the DOM.A pseudo element selects elements that don't exist, creating a new virtual element. 
+
+ 5)what are media queries in css and how can you use them ?
+ A media query consists of an optional media type and zero or more expressions that limit the style sheets' scope by using media features, such as width, height, and color.Media queries consist of an optional media type and can, as of the CSS3 specification, contain zero or more expressions, expressed as media features, which resolve to either true or false. The result of the query is true if the media type specified in the media query matches the type of device the document is being displayed on and all expressions in the media query are true.
+
+ 6) what is responsive web design?
+ it is the approach which suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation. The practice consists of a mix of flexible grids and layouts, images and an intelligent use of CSS media queries. As the user switches from their laptop to iPad, the website should automatically switch to accommodate for resolution, image size and scripting abilities. In other words, the website should have the technology to automatically respond to the user’s preferences.
+
