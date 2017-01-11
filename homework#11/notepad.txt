@@ -1,0 +1,46 @@
+1)display property values?
+every element on a webpage is a rectangular box.the display property in css determines how that rectangular box behaves. we have two types of display types display-outside and display-inside 
+<display-outside>: 
+display:block-Displays an element as a block element
+display:inline-Default value. Displays an element as an inline element
+display:run-in-Displays an element as either block or inline, depending on context
+<display-inside>:
+display:flow-depending on value of other properties and whether it is participating in a block or inline formatting context.it establishes a new block formatting content for its contents or integrates its contents into its parent formatting context
+display:flow-root-The element generates a block element box that establishes a new block formatting context.
+display:table-These elements behave like 
+<table> HTML elements. It defines a block-level box.
+display:flex-The element behaves like a block element and lays out its content according to the flexbox model.
+display:grid-The element behaves like a block element and lays out its content according to the grid model.
+display:ruby-The element behaves like an inline element and lays out its content according to the ruby formatting model. It behaves like the corresponding <ruby> HTML elements.
+<display-internal>:Some layout models, such as table and ruby, have a complex internal structure, with several different roles that their children and descendants can fill.such type of elements are called display internal elements some of them are
+table-row-group,table-header-group,table-footer-group,table-row,table-cell,table-coumn-group,table-caption and so on...
+
+2)what is difference between display none and visibility hidden
+display:none-means that the tag in question will not appear on the page at all.There will be no space allocated for it between the other tags.
+visibility:hidden-it means that unlike display:none  the tag is not visible, but space is allocated for it on the page. The tag is rendered, it just isn't seen on the page.
+
+3)what is css box model?
+css box model is a css module that defines the rectangular boxes, including their padding and margin, that are generated for elements and laid out according to the visual formatting model. all the html elements can be considered as boxes.it is used when talking about design and layout.
+it consists of margins:Clears an area outside the border. The margin is transparent
+The box model allows us to add a border around elements, and to define space between elements. 
+borders:A border that goes around the padding and content
+ padding: Clears an area around the content. The padding is transparent
+ actual content:The content of the box, where text and images appear
+
+ 4)box sizing in css?
+ this property is used to alter the default css box model.and  used to calculate width and height of the elements.The CSS3 box-sizing property allows us to include the padding and border in an element's total width and height.
+
+ 5)what is saas?
+ a scripting language that extends css by allowing developers to write code in one language and then compile it into css. one of the example is saas
+ saas is an extension of css it allows you to use things like variables,nested rules,inline imports and more.It also helps to keep things organized and allows you to create stylesheets faster.The only requirement for using Sass is that you must have Ruby installed. it uses two syntax options
+ SCSS (Sassy CSS): Uses the .scss file extension and is fully compliant with CSS syntax.
+ Indented (simply called 'Sass'): Uses .sass file extension and uses indentation rather than brackets; it is not fully compliant with CSS syntax, but it's quicker to write.
+
+
+ 6)what is preprocessor?why do you need to use preprocessor?
+ Pre-processors extend CSS with variables, operators, interpolations, functions, mixins and many more other usable assets. SASS, LESS and Stylus are the well known ones.
+ generally a preprocessor is used for writing reusable .,maintainable and extensible codes in css.by using a preprocessor you can easily increase your productivity and decrease the amount of code you are writing in a project.
+
+
+
+
