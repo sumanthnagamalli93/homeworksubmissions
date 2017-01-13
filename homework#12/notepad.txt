@@ -1,0 +1,40 @@
+1)what are the data types in java script?
+there are two types of datatypes in javascript
+primitive data types and non-primitive data types
+there are five types of primitive data types in java script
+string:it represents sequence of characters
+boolean:represents boolean value either false or true
+number:represents numeric values
+undefined:represents undefined value
+null:represents null
+
+there are three types of non-primitive data types
+object:represents instnace through which we can access numbers
+array:represents group of similar values
+regexp: represents regular expression
+
+
+2)what is the difference between java and javascript in terms of variables??
+java is statically typed language where as javascript is dynamic
+java is class based and javascript is prototype based
+java used block based scoping where as script uses function based scoping
+java constructors are special functions thact can only be called at object creation; where as script  constructors are just standard functions
+java is object oriented programming language where as javascript is object oriented scripting language.
+
+3)why do we use javascript in webpages?
+it is a nice technology to use on the web.and it is also a versatile subject. it nicely mingles with other webtechnologies such as html and css and can even interact with plugins such as flash.it helps us to build highly responsive user interfaces,and can also fix glitches caused in css.by using the right browser addons you can use javascript to make online systems available offline and sync automatically once the computer goes online.it is not only restricted to browsers.
+
+4)how to include javascript into webpages?
+ follow these steps inorder to do so
+open notepad or relevant editor like sublime editor 
+start a basic html doc
+add a script tag to the htmls head and let the text editor know that you would like to use a java script to write your htmls javascript program
+make sure you end your html doc
+save your page and open it in the browser and its done
+
+5)where to include javascript in webpages and why?
+javascript is embedded into html documents using <script> element. this element can be used to embed the javascript directly into webpage or to specify an external file that contains the javascript.
+
+
+
+
