@@ -1,0 +1,60 @@
+1)what is operator precedence?
+the order in which operators are evaluated in a  expression is referred to as operator precedence.it is prettymuch predominant in algebra when solving equations.for egs division and multiplication have higher precedence over addition and subtraction 
+for egs 5+8+2*2 in this the result will be 17 but not 30 because first multiply 2*2 and then add 8+5 but not 8+5+2 and multiply with 2
+
+2)what is truthy value and falsy value?
+in javascript a truthy value is a value that translates to true when evaluated in a boolean  context. all values are truthy unless they are defined as falsy
+some egs of truthy values in java script are
+if(true)
+if({})
+if([])
+if(42) and so on
+a falsy value is a value that translates to false when evaluated in aboolean context.
+some egs of falsy values are
+if(false)
+if(null) if(undefined)
+
+3)logicl and&& ,logical or(||)??
+Logical AND: Returns expr1 if it can be converted to false; otherwise, returns expr2. Thus, when used with Boolean values, && returns true if both operands are true; otherwise, returns false as shown in the code.
+   
+Logical OR: Returns expr1 if it can be converted to true; otherwise, returns expr2. Thus, when used with Boolean values, || returns true if either operand is true as shown in the code.
+
+4)Conditions in Javascript?
+A. Conditional statements are used to perform different actions based on different conditions. Few of the conditional statements are:
+    if: is used to specify a block of code to be executed, if a specified condition is true
+    else: used to specify a block of code to be executed, if the same condition is false
+    else if: is used to specify a new condition to test, if the first condition is false
+    switch: is used to specify many alternative blocks of code to be executed
+
+5)5. Post and pre increment, post and pre decrement?
+A. Pre increment:
+var i = 0;
+++i;
+console.log(i == 1);  With ++i, the value is incremented, then evaluated. So if i was 0, it would be evaluated as 1
+Post increment:
+var i = 0;
+i++;
+console.log(i == 1);  With i++, if i was 0, it would be evaluated as 0, but then stored as 1. 
+Post and pre decrement subtracts the value by 1 and is denoted as --i and i--.
+
+6. Loops(while, do while, for loop)?
+A. for: for - loops through a block of code a number of times
+        Example: for (i = 0; i < 5; i++) {
+    text += "The number is " + i + "<br>"; }
+    Statement 1 (i=0;) is executed before the loop starts. i.e, sets the variable to 0.
+
+    Statement 2 (i<5;) defines the condition for running the loop (i must be less than 5).
+
+    Statement 3 (i++;) is executed each time after the loop (i++) has been executed.
+
+   while: loops through a block of code while a specified condition is true
+         
+          Example: while (i < 10) {
+                   text += "The number is " + i;
+                    i++; }
+ 
+
+do/while - The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true
+
+
+
