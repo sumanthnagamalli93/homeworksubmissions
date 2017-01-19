@@ -1,0 +1,63 @@
+2)what are the different ways to create a object?
+the different ways to create objects are
+using object literal,we can define and create object in one statement
+object literal is a list of name:value pairs(like age:50) inside curly braces{}
+
+<script>
+var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+document.getElementById("demo").innerHTML =
+person.firstName + " is " + person.age + " years old.";
+</script>
+gives the output john is 50 years old.
+
+define and create a single object with keyword new.
+
+<script>
+var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+
+document.getElementById("demo").innerHTML =
+person.firstName + " is " + person.age + " years old.";
+</script>
+
+gives output john is 50 years old.
+
+using an object constructor:when we like to have an object type that can be used to create many objects of one type 
+one of the best way is to create an object type is to use an object constructor function
+
+factory function:allows to encapsulate and re-use the logic for creating similar objects. It leverages any of the previous constructs for this.
+
+prototype:functions are very special in javascript.they are objects,they can create other objects and they automatically get a field called prototype. A prototype is a plain object with a single field, called constructor, pointing to the function itself.
+
+function/prototype combination:they take advantages of both of these
+singleton:Sometimes, you may want to make sure that only a single instance of a certain class exists. To get a Singleton in Javascript is as simple as defining and invoking the constructor at the same time: 
+
+3)what are properties in object?
+properties are the values associated with a javascript object.javascript object is a collection of unordered properties and can usually be changes added and deleted but some of them are read only..
+syntax for accessing the property of an object is 
+objectname.property
+some of the properties of objects are
+named data properties:these type of property of objects map string names to values.
+named accessor properties:getting and setting a property value can be handled via functions.these are called accessor functions.A function that handles getting is called a getter. A function that handles setting is called a setter.
+
+internal properties:Some properties are only used by the specification. They are called “internal”, because they are not directly accessible via the language, but they do influence its behavior. Internal properties have special names that are written in double square brackets.
+
+4)how to retrieve a property value in object?
+object.values() method returns an array of a given objects own enumerable property values, as the same order as that provided bya for....in loop
+syntax: object.values(obj)
+
+5)how to add a property into a object?
+you can add new properties to an existing object by simply giving it a value.assume that the person object already exits -you can they give it new properties
+
+6)how to remove a property in object?
+the delete keywords deletes both the values of the property and the property itself.after deletion the property cannot be used before it is added back again.it is bascially used on object properties
+
+8)how to check if a property exists with in an object?
+we can use the in operator to determine the existance of the property 
+the in operator returns true whe the named property exists on the object
+
+example: if("name" in person)
+{
+	//property exists
+}
+
