@@ -1,0 +1,18 @@
+1)what is call, apply and bind in javascript?
+bind()allows us to easily set which specific object will be bound to 'this' when a function or method is invoked
+in simple words when you want that function to later be called with in a certain context bind is used.
+apply and call() are used when you want to invoke the function immediately and modify the context.and they allows us to borrow functions and set the this value in function invocation.
+
+2)what is context in javascript?
+context is object based.it is always the value of the this keyword which is a reference to the object that owns the currently executing code.
+
+3)what is lexical scoping?
+lexical scope is basically a static scope.Dynamic scope defines global variables that can be called or referenced from anywhere after being defined. Sometimes they are called global variables, even though global variables in most programmin languages are of lexical scope.
+
+4)what is for in loop?
+the for...in loop is used to loop through an objects properties in an arbitary order
+Objects created from built–in constructors like Array and Object have inherited non–enumerable properties from Object.prototype and String.prototype, such as String's indexOf() method or Object's toString() method.and this loop will iterate over all ennumerable properties of the objects itself and those the object inherits from its constructors prototype.
+
+5)difference between prototype and extends in javascript?
+A. Prototype is an object from which all javascript objects inherit their properties and methods.
+     The extends keyword is used in class declarations or class expressions to create a class which is a child of another class.
