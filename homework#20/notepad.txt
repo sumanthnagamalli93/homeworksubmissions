@@ -1,0 +1,30 @@
+1)what is iife and why it is used?
+immediately invoked function expression produces lexical scope using javascripts functional scoping.it can be used to avoid  variable hoisting from within blocks, protect against polluting the global environment and simultaneously allow public access to methods while retaining privacy for variables defined within the function. This concept has been referred to as a self-executing anonymous function
+
+2)waht is name spacing?why do we neeed it?
+JavaScript is designed in such a way that it is very easy to create global variables that have the potential to interact in negative ways. The practice of namespacing is usually to create an object literal encapsulating your own functions and variables, so as not to collide with those created by other libraries
+
+
+4)is it a good practice to have too many global variables or functions in java script?
+it is a bad idea to use lot of global variables because of non-locality,no access control or constraint checking,implicit coupling,concurrency issues, name spacepollution,memory allocation issues,testing and confinement so it better not use too many global variables in java script.
+
+
+5)what are html dom events in html doc?
+HTML DOM events allow JavaScript to register different event handlers on elements in an HTML document. Events are normally used in combination with functions, and the function will not be executed before the event occurs 
+there are different types of dom events,mouse events,keyboard events,object events,form events,drag events,clipboard events,print events,media events,animation events,transition events and so on..
+
+6)what is event listener in java script ?how can we configure them?
+The addEventListener() method attaches an event handler to the specified element.
+The addEventListener() method attaches an event handler to an element without overwriting existing event handlers.You can add many event handlers to one element.You can add many event handlers of the same type to one element, i.e two "click" events.You can add event listeners to any DOM object not only hTML elements. i.e the window object.The addEventListener() method makes it easier to control how the event reacts to bubbling.When using the addEventListener() method, the JavaScript is separated from the HTML markup, for better readability and allows you to add event listeners even when you do not control the HTML markup.
+You can easily remove an event listener by using the removeEventListener() method.
+syntax:element.addEventListener(event, function, useCapture);
+
+7)what is event handler?
+An event handler typically is a software routine that processes actions such as keystrokes and mouse movements. With Web sites, event handlers make Web content dynamic. JavaScript is a common method of scripting event handlers for Web content.
+
+8)what is event propagation? what is bubbling and capturing?
+Event bubbling and capturing are two ways of event propagation in the HTML DOM API, when an event occurs in an element inside another element, and both elements have registered a handle for that event. The event propagation mode determines in which order the elements receive the event.
+With bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements.
+With capturing, the event is first captured by the outermost element and propagated to the inner elements.
+Capturing is also called "trickling", which helps remember the propagation order.
+
